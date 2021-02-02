@@ -5,6 +5,7 @@ stages {
         
       steps { 
         sh 'ls'
+        sh './myscript.sh'
           
               
          }
