@@ -5,7 +5,10 @@ stages {
         
       steps { 
         sh 'ls'
+        echo "we are here"
+        sh 'pwd'
         sh './myscript.sh'
+        
           
               
          }
