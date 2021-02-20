@@ -9,6 +9,7 @@ stages {
         sh 'pwd'
         sh 'whoami'
         sh 'terraform init'
+        sh 'terraform plan'
        
         
           
